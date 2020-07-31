@@ -52,14 +52,12 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: Why had Framton Nuttel come to the “rural retreat”?',
+                    'Q2: Why had his sister given him letters of introduction to people living there?',
+                    'Q3: What had happened in the Sappleton family as narrated by the niece?',
+                    'Q4: What did Mrs Sappleton say about the open window?',
+                    'Q5: The horror on the girl’s face made Framton swing around in his seat. What did he see?',
+                    'Q6: Why did Framton rush out wildly?',
                   ]
 
                   questions.each do |question|
