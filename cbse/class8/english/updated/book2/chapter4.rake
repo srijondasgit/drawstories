@@ -52,14 +52,11 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: What did Hafeez Contractor have nightmares about?',
+                    'Q2: What did the Principal say to him, which influenced him deeply?',
+                    'Q3: Hafeez Contractor wanted to join the police force. Why didn’t he?',
+                    'Q4: In the architect’s office, Hafeez Contractor was advised to drop everything and join architecture. Why?',
+                    'Q5: How did he help fellow students who had lost a button?',
                   ]
 
                   questions.each do |question|
