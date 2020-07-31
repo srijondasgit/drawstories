@@ -52,14 +52,12 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: Why were travellers attracted towards India?',
+                    'Q2: What were the sources of the ancient education system?',
+                    'Q3: What were the features of education system in ancient India?',
+                    'Q4: What was the role of guru in pupils’ lives?',
+                    'Q5: Where did nuns and monks receive their education?',
+                    'Q6: What is Panini known for?',
                   ]
 
                   questions.each do |question|
