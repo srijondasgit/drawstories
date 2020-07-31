@@ -52,14 +52,12 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: Why didn’t he pay the school fees on the day he brought money to school?',
+                    'Q2: Why didn’t he take the coins’ advice? Give two or three reasons.',
+                    'Q3: He reached home with the coins in his pocket. What happened then?',
+                    'Q4: When it is time to pay the fees, what does he do? How is he disobeying the elders by doing so?',
+                    'Q5: What was the consequence of buying jalebis with the fees money?',
+                    'Q6: If God had granted his wish that day, what harm would it have caused him in later life?',
                   ]
 
                   questions.each do |question|
