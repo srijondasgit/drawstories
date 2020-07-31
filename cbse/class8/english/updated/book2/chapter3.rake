@@ -52,14 +52,13 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: Why is the Giant called selfish?',
+                    'Q2: Was the Giant happy or sad over the state of the garden?',
+                    'Q3: On one occasion the children said: “How happy we are here!” Later they said: “How happy we were there!” What are they referring to in both the cases?',
+                    'Q4: What effect did the linnet’s song have over Hail and the North Wind?',
+                    'Q5: When spring came, it was still winter in the garden. What does
+                    winter stand for or indicate here?',
+                    'Q6: Winter has been presented like a story with its own characters and their activities. Describe the story in your own words.",
                   ]
 
                   questions.each do |question|
