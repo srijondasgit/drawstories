@@ -52,14 +52,13 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    "Q1:  (i) Did the prospect of meeting Stephen Hawking make the writer nervous? If so, why?  (ii) Did he at the same time feel very excited? If so, why?",
+                    "Q2:  Guess the first question put to the scientist by the writer.",
+                    "Q3:  Stephen Hawking said, “I’ve had no choice.” Does the writer think there was a choice? What was it?",
+                    'Q4:  “I could feel his anguish.” What could be the anguish?',
+                    "Q5:  What endeared the scientist to the writer so that he said he was looking at one of the most beautiful men in the world?",
+                    "Q6:  Read aloud the description of ‘the beautiful’ man. Which is the most beautiful sentence in the description?",
+                    "Q7:  Imagine that you are a journalist. You have been asked to interview the president of the village panchayat. Write eight to ten questions you wish to ask. The questions should elicit comments as well as plans regarding water and electricity, cleanliness and school education in the village.",
                   ]
 
                   questions.each do |question|
