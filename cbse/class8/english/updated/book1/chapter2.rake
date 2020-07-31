@@ -6,60 +6,50 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'Rudyard Kipling', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'Unnamed', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
-        sections = ["In the beginning of years, when the world was so new and all, and the Animals were just beginning to work for Man, there was a Camel, and he lived in the middle of a Howling Desert because he did not want to work; and besides, he was a Howler himself. So he ate sticks and thorns and tamarisks and milkweed and prickles, most ‘scruciating idle; and when anybody spoke to him he said ‘Humph!’ Just ‘Humph!’ and no more.", 
-                    "Presently the Horse came to him on Monday morning, with a saddle on his back and a bit in his mouth, and said, ‘Camel, O Camel, come out and trot like the rest of us.’", 
-                    "‘Humph!’ said the Camel; and the Horse went away and told the Man. ",  
-                    "‘Humph!’ said the Camel; and the Horse went away and told the Man. ", 
-                    "Presently the Dog came to him, with a stick in his mouth, and said, ‘Camel, O Camel, come and fetch and carry like the rest of us.’", 
-                    "‘Humph!’ said the Camel; and the Dog went away and told the Man.",
-
-                    "Presently the Ox came to him, with the yoke on his neck and said, ‘Camel, O Camel, come and plough like the rest of us.’",
-                    "‘Humph!’ said the Camel; and the Ox went away and told the Man.",
-                    "At the end of the day the Man called the Horse and the Dog and the Ox together, and said, ‘Three, O Three, I’m very sorry for you (with the world so new-and-all); but that Humph-thing in the Desert can’t work, or he would have been here by now, so I am going to leave him alone, and you must work double-time to make up for it.’",
-                    "That made the Three very angry (with the world so new-and-all), and they held a palaver, and an indaba , and a punchayet , and a pow-wow on the edge of the Desert; and the Camel came chewing on milkweed most ‘scruciating idle, and laughed at them. Then he said ‘Humph!’ and went away again.                    ",
-                    "Presently there came along the Djinn in charge of All Deserts, rolling in a cloud of dust (Djinns always travel that way because it is Magic), and he stopped to palaver and pow-pow with the Three.",
-                    "‘Djinn of All Deserts,’ said the Horse, ‘is it right for any one to be idle, with the world so new-and-all?’",
-                    "‘Certainly not,’ said the Djinn.",
-                    "‘Well,’ said the Horse, ‘there’s a thing in the middle of your Howling Desert (and he’s a Howler himself) with a long neck and long legs, and he hasn’t done a stroke of work since Monday morning. He won’t trot.’",
-                    "‘Whew!’ said the Djinn, whistling, ‘that’s my Camel, for all the gold in Arabia! What does he say about it?’", 
-                    "‘He says “Humph!”’ said the Dog; ‘and he won’t fetch and carry.’",
-                    "‘Does he say anything else?’",
-                    "‘Only “Humph!”; and he won’t plough,’ said the Ox.                    ",
-                    "‘Very good,’ said the Djinn. ‘I’ll humph him if you will kindly wait a minute.’ ",
-                    
-                    "The Djinn rolled himself up in his dust-cloak, and took a bearing across the desert, and found the Camel most ‘scruciatingly idle, looking at his own reflection in a pool of water.",
-                    "‘My long and bubbling friend,’ said the Djinn, ‘what’s this I hear of your doing no work, with the world so new-and-all?’",
-                    "‘Humph!’ said the Camel.",
-                    "The Djinn sat down, with his chin in his hand, and began to think a Great Magic, while the Camel looked at his own reflection in the pool of water.",
-                    "‘You’ve given the Three extra work ever since Monday morning, all on account of your ‘scruciating idleness,’ said the Djinn; and he went on thinking Magics, with his chin in his hand.",
-                    "‘Humph!’ said the Camel.",
-                    "‘I shouldn’t say that again if I were you,’ said the Djinn; you might say it once too often. Bubbles, I want you to work.’                    ",
-                    "And the Camel said ‘Humph!’ again; but no sooner had he said it than he saw his back, that he was so proud of, puffing up and puffing up into a great big lolloping humph.",
-                    "‘Do you see that?’ said the Djinn. ‘That’s your very own humph that you’ve brought upon your very own self by not working. To-day is Thursday, and you’ve done no work since Monday, when the work began. Now you are going to work.’",
-                    "‘How can I,’ said the Camel, ‘with this humph on my back?’                    ",
-                    "‘That’s made a-purpose,’ said the Djinn, ‘all because you missed those three days. You will be able to work now for three days without eating, because you can live on your humph; and don’t you ever say I never did anything for you. Come out of the Desert and go to the Three, and behave. Humph yourself!’",
-                    "And the Camel humphed himself, humph and all, and went away to join the Three. And from that day to this the Camel always wears a humph (we call it ‘hump’ now, not to hurt his feelings); but he has never yet caught up with the three days that he missed at the beginning of the world, and he has never yet learned how to behave.",
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Tsunami", audio_link: 'chapter1.mp3')
+        sections = ['These stories are all from the Andaman and Nicobar archipelago.',
+                    'Ignesious was the manager of a cooperative society in Katchall. His wife woke him up at 6 a.m. because she felt an earthquake. Ignesious carefully took his television set off its table and put it down on the ground so that it would not fall and break. Then the family rushed out of the house.',
+                    'When the tremors stopped, they saw the sea rising. In the chaos and confusion, two of his children caught hold of the hands of their mother\'s father and mother\'s brother, and rushed in the opposite direction. He never saw them again. His wife was also swept away. Only the three other children who came with him were saved.',
+                    'Sanjeev was a policeman, serving in the Katchall island of the Nicobar group of islands. He somehow managed to save himself, his wife and his baby daughter from the waves. But then he heard cries for help from the wife of John, the guesthouse cook. Sanjeev jumped into the water to rescue her, but they were both swept away.',
+                    'Thirteen year-old Meghna was swept away along with her parents and seventy-seven other people. She spent two days floating in the sea, holding on to a wooden door. Eleven times she saw relief helicopters overhead, but they did not see her. She was brought to the shore by a wave, and was found walking on the seashore in a daze.',
+                    'Almas Javed was ten years old. She was a student of Carmel Convent in Port Blair where her father had a petrol pump. Her mother Rahila\'s home was in Nancowry island. The family had gone there to celebrate Christmas.',
+                    'When the tremors came early in the morning, the family was sleeping. Almas\'s father saw the sea water recede. He understood that the water would come rushing back with great force. He woke everyone up and tried to rush them to a safer place.',
+                    'As they ran, her grandfather was hit on the head by something and he fell down. Her father rushed to help him. Then came the first giant wave that swept both of them away.',
+                    'Almas\'s mother and aunts stood clinging to the leaves of a coconut tree, calling out to her. A wave uprooted the tree, and they too were washed away.',
+                    'Almas saw a log of wood floating. She climbed on to it. Then she fainted. When she woke up, she was in ahospital in Kamorta. From there she was brought to Port Blair.',
+                    'The little girl does not want to talk about the incident with anyone. She is still traumatised.',
+                    'Tilly Smith (a British school girl) was able to save many lives when the tsunami struck Phuket beach in Thailand. Though she has won a number of awards, her parents have not allowed their daughter to be interviewed on television and made into a heroine. Why do you think they took that decision?',
+                    'Now here is a story from Thailand.',
+                    'The Smith family from South-East England were celebrating Christmas at a beach resort in southern Thailand. Tilly Smith was a ten-year-old schoolgirl; her sister was seven years old. Their parents were Penny and Colin Smith.',
+                    'It was 26 December 2004. Deadly tsunami waves were already on their way. They had been triggered by a massive earthquake off northern Sumatra earlier that morning.',
+                    '“The water was swelling and kept coming in,” Penny Smith remembered. “The beach was getting smaller and smaller. I didn\'t know what was happening.”',
+                    'But Tilly Smith sensed that something was wrong. Her mind kept going back to a geography lesson she had taken in England just two weeks before she flew out to Thailand with her family.',
+                    'Tilly saw the sea slowly rise, and start to foam, bubble and form whirlpools. She remembered that she had seen this in class in a video of a tsunami that had hit the Hawaiian islands in 1946. Her geography teacher had shown her class the video, and told them that tsunamis can be caused by earthquakes, volcanoes and landslides.',
+                    'Tilly started to scream at her family to get off the beach. “She talked about an earthquake under the sea. She got more and more hysterical,” said her mother Penny. “I didn\'t know what a tsunami was. But seeing my daughter so frightened, I thought something serious must be going on.”Tilly\'s parents took her and her sister away from the beach, to the swimming pool at the hotel. A number of other tourists also left the beach with them. “Then it was as if the entire sea had come out after them. I was screaming, \'Run!\'”The family took refuge in the third floor of the hotel. The building withstood the surge of three tsunami waves. If they had stayed on the beach, they would not have been alive.',
+                    'The Smiths later met other tourists who had lost entire families. Thanks to Tilly and her geography lesson, they had been forewarned. Tilly went back to her school in England and told her classmates her terrifying tale.',
+                    'Before the giant waves slammed into the coast in India and Sri Lanka, wild and domestic animals seemed to know what was about to happen. They fled to safety. According to eyewitness accounts, elephants screamed and ran for higher ground; dogs refused to go outdoors; flamingoes abandoned their low-lying breeding areas; and zoo animals rushed into their shelters and could not be enticed to come back out.',
+                    'Many people believe that animals possess a sixth sense and know when the earth is going to shake. Some experts believe that animals\' more acute hearing helps them to hear or feel the earth\'s vibration. They can sense an approaching disaster long before humans realise what\'s going on.',
+                    'We cannot be sure whether animals have a sixth sense or not. But the fact is that the giant waves that rolled through the Indian Ocean killed more than 150,000 people in a dozen countries; but not many animals have been reported dead.',
+                    'Along India\'s Cuddalore coast, where thousands of people perished, buffaloes, goats and dogs were found unharmed. The Yala National Park in Sri Lanka is home to a variety of animals including elephants, leopards, and 130 species of birds. Sixty visitors were washed away from the Patanangala beach inside the park; butno animal carcasses were found, except for two water buffaloes. About an hour before the tsunami hit, people at Yala National Park had observed three elephants running away from the Patanangala beach.',
+                    'A Sri Lankan gentleman who lives on the coast near Galle said his two dogs would not go for their daily run on the beach. “They are usually excited to go on this outing,” he said. But on that day they refused to go, and most probably saved his life.',             
                   ]
       
                   sections.each do |content|
                     Section.create( chappter_id: chappter.id, section_text: content)
                   end
 
-
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    "Q1:  When he felt the earthquake, do you think Ignesious immediately worried about a tsunami? Give reasons for your answer. Which sentence in the text tells you that the Ignesious family did not have any time to discuss and plan their course of action after the tsunami struck?",
+                    "Q2:  Which words in the list below describe Sanjeev, in your opinion? (Look up the dictionary for words that you are not sure of.) cheerful ambitious brash brave careless heroic selfless heartless humorous",
+                    "Q3:  How are Meghna and Almas’s stories similar?",
+                    "Q4:  What are the different ways in which Tilly’s parents could have reacted to her behaviour? What would you have done if you were in their place?",
+                    "Q5:  If Tilly’s award was to be shared, who do you think she should share it with — her parents or her geography teacher?",
+                    "Q6:  What are the two different ideas about why so few animals were killed in the tsunami? Which idea do you find more believable?",
+                    "Q7:  The story shows how a little girl saved the lives of many tourists when a tsunami struck the beach, thanks to the geography lesson that she had learnt at school. She remembered the visuals of a tsunami and warned her parents.",
                   ]
 
                   questions.each do |question|
