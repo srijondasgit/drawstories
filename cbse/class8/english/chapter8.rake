@@ -54,11 +54,11 @@
                   questions = [
                     "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
                     "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
+                    "Q3:  What made the dog, the horse and the ox very angry? ",
                     "Q4:  How did the Djinn know the horse was complaining against the camel?",
                     "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
                     "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
+                    "Q7:  What, according to the Djinn, was the use of the 'humph'?",
                     'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
                   ]
 
