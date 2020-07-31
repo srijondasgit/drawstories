@@ -52,14 +52,12 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    'Q1: What did the scientists at the conference say about James’s ‘sums’?',
+                    'Q2: Immediate action was needed, the scientists decided. Give one example each of ‘defensive’ and ‘offensive’ action mentioned in the text.',
+                    'Q3: What is Duttada expected to do on his return from London?',
+                    'Q4: What is his reaction to the proposal?',
+                    'Q5: Did Sir John buy Christmas presents on December 15? How did Duttada get to know about it?',
+                    'Q6: Why, according to Indrani Debi, had the comet not been disastrous? Do you agree with her?',
                   ]
 
                   questions.each do |question|
