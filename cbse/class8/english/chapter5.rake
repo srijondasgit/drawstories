@@ -6,11 +6,11 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'Rudyard Kipling', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'H.P.S. AHLUWALIA', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Summit Within", audio_link: 'chapter1.mp3')
         sections = ['Of all the emotions which surged through me as I stood on the summit of Everest, looking over miles of panorama below us, the dominant one I think was humility. The physical in me seemed to say, \'Thank God, it\'s all over!” However, instead of being jubilant, there was a tinge of sadness. Was it because I had already done the \'ultimate\' in climbing and there would be nothing higher to climb and all roads hereafter would lead down?',
                     'By climbing the summit of Everest you are overwhelmed by a deep sense of joy and thankfulness. It is a joy which lasts a lifetime. The experience changes you completely. The man who has been to the mountains is never the same again.',
                     'As I look back at life after climbing Everest I cannot help remarking about the other summit — the summit of the mind — no less formidable and no easier to climb.',
