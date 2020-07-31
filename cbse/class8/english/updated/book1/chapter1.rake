@@ -41,14 +41,13 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    "Q1:  For how long do you think Connie had kept Jim’s letter? Give reasons for your answer.",
+                    "Q2:  Why do you think the desk had been sold, and when?",
+                    "Q3:  Why do Jim and Hans think that games or sports are good ways of resolving conflicts? Do you agree?",
+                    "Q4:  Do you think the soldiers of the two armies are like each other, or different from each other? Find evidence from the story to support your answer.",
+                    "Q5:  Mention the various ways in which the British and the German soldiers become friends and find things in common at Christmas.",
+                    'Q6:  What is Connie’s Christmas present? Why is it “the best Christmas present in the world”?',
+                    "Q7:  Do you think the title of this story is suitable for it? Can you think of any other title(s)?",
                   ]
 
                   questions.each do |question|
