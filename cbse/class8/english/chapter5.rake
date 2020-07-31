@@ -52,14 +52,14 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    "Q1:  What are the three qualities that played a major role in the author’s climb?",
+                    "Q2:  Why is adventure, which is risky, also pleasurable?",
+                    "Q3:  What was it about Mount Everest that the author found irresistible?",
+                    "Q4:  One does not do it (climb a high peak) for fame alone. What does one do it for, really?",
+                    'Q5:  “He becomes conscious in a special manner of his own smallness in this large universe.” This awareness defines an emotion mentioned in the first paragraph. Which is the emotion?',
+                    'Q6:  What were the “symbols of reverence” left by members of the team on Everest?',
+                    "Q7:  What, according to the writer, did his experience as an Everester teach him?",
+                    'Q8:  Write a composition describing a visit to the hills, or any place which you found beautiful and inspiring.'
                   ]
 
                   questions.each do |question|
