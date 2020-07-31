@@ -52,14 +52,14 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
+                    "Q1:  How did Jody bring the fawn back home?",
+                    "Q2:  Jody was filled with emotion after he found the fawn. Can you find at least three words or phrases which show how he felt",
+                    "Q3:  Why did Penny Baxter allow Jody to go find the fawn and raise it?",
+                    "Q4:  What did Doc Wilson mean when he said, “Nothing in the world ever comes quite free”?",
+                    "Q5:  How did Jody look after the fawn, after he accepted the responsibility for doing this?",
+                    "Q6:  How does Jody’s mother react when she hears that he is going to bring the fawn home? Why does she react in this way?",
+                    "Q7:  Imagine you have a new pet that keeps you busy. Write a paragraph describing your pet, the things it does, and the way it makes you feel. Here are some words and phrases that you could use. frisky, smart, disobedient, loyal, happy, enthusiastic, companion, sharing, friend, rolls in mud, dirties the bed, naughty, lively, playful, eats up food, hides the newspaper, drinks up milk, runs away when called, floats on the water as if dead",
+                    'Q8:  In This is Jody’s Fawn, Jody’s father uses a ‘home remedy’ for a snake bite. What should a person now do if he or she is bitten by a snake? Are all snakes poisonous? With the help of your teacher and others, find out answers to such questions. Then write a short paragraph on — What to do if a snake chooses to bite you.',
                   ]
 
                   questions.each do |question|
