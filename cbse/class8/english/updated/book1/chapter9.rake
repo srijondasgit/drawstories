@@ -6,7 +6,7 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'Nathaniel Hawthorne', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'NATHANIEL HAWTHORNE', book_type: 'General')
 
     if book.save
 
