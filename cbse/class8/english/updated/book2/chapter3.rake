@@ -48,7 +48,7 @@
                     'Q4: What effect did the linnet’s song have over Hail and the North Wind?',
                     'Q5: When spring came, it was still winter in the garden. What does
                     winter stand for or indicate here?',
-                    'Q6: Winter has been presented like a story with its own characters and their activities. Describe the story in your own words.",
+                    'Q6: Winter has been presented like a story with its own characters and their activities. Describe the story in your own words.',
                   ]
 
                   questions.each do |question|
