@@ -31,13 +31,17 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Which of the following is NOT a member of the solar system? (a) An asteroid (b) A satellite (c) A constellation (d) A comet',
+                    'Q2:  Which of the following is NOT a planet of the sun? (a) Sirius (b) Mercury (c) Saturn (d) Earth',
+                    'Q3:  In which part of the sky can you find Venus if it is visible as an evening star?',
+                    'Q4:  Name the largest planet of the solar system.',
+                    'Q5:  What is a constellation? Name any two constellations.',
+                    'Q6:  Draw sketches to show the relative positions of prominent stars in (a) Ursa Major and (b) Orion',
+                    'Q7:  Name two objects other than planets which are members of the solar system.',
+                    'Q8:  Explain how you can locate the Pole Star with the help of Ursa Major.',
+                    'Q9:  Do all the stars in the sky move? Explain.',
+                    'Q10:  Why is the distance between stars expressed in light years? What do you understand by the statement that a star is eight light years away from the Earth?',
+                    'Q11:  The radius of Jupiter is 11 times the radius of the Earth. Calculate the ratio of the volumes of Jupiter and the Earth. How many Earths can Jupiter accomodate?',
                   ]
 
                   questions.each do |question|

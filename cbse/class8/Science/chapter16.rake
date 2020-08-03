@@ -29,13 +29,16 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Suppose you are in a dark room. Can you see objects in the room? Can you see objects outside the room. Explain.',
+                    'Q2:  Differentiate between regular and diffused reflection. Does diffused reflection mean the failure of the laws of reflection?',
+                    'Q3:  State the laws of reflection.',
+                    'Q4:  Describe an activity to show that the incident ray, the reflected ray and the normal at the point of incidence lie in the same plane.',
+                    'Q5:  Angle of incidence is equal to the angle of reflection (a) Always (b) Sometimes (c) Under special conditions (d) Never',
+                    'Q6:  Describe the construction of a kaleidoscope.',
+                    'Q7:  Gurmit wanted to perform Activity 16.8 using a laser torch. Her teacher advised her not to do so. Can you explain the basis of the teachers advise?',
+                    'Q8:  Explain how you can take care of your eyes.',
+                    'Q9:  What is the angle of incidence of a ray if the reflected ray is at an angle of 90° to the incident ray?',
+                    'Q10:  How many images of a candle will be formed if it is placed between two parallel plane mirrors separated by 40 cm?',
                   ]
 
                   questions.each do |question|

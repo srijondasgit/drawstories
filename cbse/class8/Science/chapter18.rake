@@ -34,13 +34,16 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  What are the different ways in which water gets contaminated ?',
+                    'Q2:  At an individual level, how can you help reduce air pollution?',
+                    'Q3:  Clear, transparent water is always fit for drinking. Comment.',
+                    'Q4:  Explain the differences between pure air and polluted air.',
+                    'Q5:  Explain circumstances leading to acid rain. How does acid rain affect us?',
+                    'Q6:  Which of the following is not a greenhouse gas? (a) Carbon dioxide (b) Sulphur dioxide (c) Methane (d) Nitrogen',
+                    'Q7:  Describe the ‘Green House Effect’ in your own words.',
+                    'Q8:  Prepare a brief speech on global warming that you have to make in your class.',
+                    'Q9:  Describe the threat to the beauty of the Taj Mahal.',
+                    'Q10:  Why does the increased level of nutrients in the water affect the survival of aquatic organisms?',
                   ]
 
                   questions.each do |question|
