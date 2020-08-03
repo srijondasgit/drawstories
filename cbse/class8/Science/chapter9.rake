@@ -28,13 +28,14 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Explain the importance of reproduction in organisms.',
+                    'Q2:  Describe the the process of fertilization in human beings.',
+                    'Q3:  Choose the most appropriate answer: (a) Internal fertilization occurs - (i) infemalebody. (ii) outsidefemalebody. (iii) inmalebody. (iv) outsidemalebody. --- (b) A tadpole develops into an adult frog by the process of (i) fertilization. (ii) metamorphosis. (iii) embedding. (iv) budding. --- (c) The number of nuclei present in a zygote is (i) none. (ii) one. (iii) two. (iv) four.',
+                    'Q4:  Give two difference between a zygote and a foetus.',
+                    'Q5:  Define asexual reproduction. Describe two methods of asexual reproduction in animals.',
+                    'Q6:  In which female reproductive organ does the embryo get embedded?',
+                    'Q7:  What is metamorphosis? Give examples.',
+                    'Q8:  Differentiate between internal fertilization and external fertilization.',
                   ]
 
                   questions.each do |question|

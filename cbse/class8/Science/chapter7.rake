@@ -30,13 +30,13 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Plant at least five different plants in your locality during this academic year and ensure their maintenance till they grow.',
+                    'Q2:  Is it justifiable to prevent tribals from staying in the core area of the forest? Discuss the matter in your class and note down the points for and against the motion in your notebook.',
+                    'Q3:  Study the biodiversity of a park nearby. Prepare a detailed report with photographs and sketches of flora and fauna.',
+                    'Q4:  Make a list of the new information you have gathered from this chapter. Which information did you like the most and why?',
+                    'Q5:  Karnataka Government had launched ‘Project Elephant’ to save Asian elephants in the state. Find out about this and other such campaigns launched to protect threatened species.',
+                    'Q6:  Did you know - India has more than half of the world’s wild tigers, 65% of the Asian elephants, 85% of the great one-horned rhinoceros and 100% of the Asian lions.',
+                    'Q7:  Did you know - India is sixth on a list of 12 mega-biodiversity countries in the world. It contains two of the 13 biodiversity hot spots of the world – North-East India and the Western Ghats. These areas are very rich in biodiversity.',
                   ]
 
                   questions.each do |question|

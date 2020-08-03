@@ -28,13 +28,13 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Write short notes on the following: (a) Cytoplasm (b) Nucleus of a cell',
+                    'Q2:  Which part of the cell contains organelles?',
+                    'Q3:  State the difference between eukaryotes and prokaryotes.',
+                    'Q4:  Where are chromosomes found in a cell? State their function.',
+                    'Q5:  ‘Cells are the basic structural units of living organisms’. Explain.',
+                    'Q6:  Explain why chloroplasts are found only in plant cells?',
+                    'Q7:  Did you know - The cells in the outermost layer of our skin are dead. An average adult carries around about 2 kg of dead skin. Billions of tiny fragments of the skin are lost every day. Every time you run your finger on a dusty table, you shed a lot of old skin.',
                   ]
 
                   questions.each do |question|

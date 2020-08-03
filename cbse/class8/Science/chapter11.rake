@@ -25,13 +25,13 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Give two examples each of situations in which you push or pull to change the state of motion of objects.',
+                    'Q2:  Give two examples of situations in which applied force causes a change in the shape of an object.',
+                    'Q3:  A blacksmith hammers a hot piece of iron while making a tool. How does the force due to hammering affect the piece of iron?',
+                    'Q4:  An inflated balloon was pressed against a wall after it has been rubbed with a piece of synthetic cloth. It was found that the balloon sticks to the wall. What force might be responsible for the attraction between the balloon and the wall?',
+                    'Q5:  Name the forces acting on a plastic bucket containing water held above ground level in your hand. Discuss why the forces acting on the bucket do not bring a change in its state of motion.',
+                    'Q6:  A rocket has been fired upwards to launch a satellite in its orbit. Name the two forces acting on the rocket immediately after leaving the launching pad.',
+                    'Q7:  When we press the bulb of a dropper with its nozzle kept in water, air in the dropper is seen to escape in the form of bubbles. Once we release the pressure on the bulb, water gets filled in the dropper. The rise of water in the dropper is due to - (a) pressure of water (b) gravity of the earth (c) shape of rubber bulb (d) atmospheric pressure',
                   ]
 
                   questions.each do |question|

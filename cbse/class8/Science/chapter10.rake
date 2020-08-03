@@ -27,13 +27,12 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  What is the term used for secretions of endocrine glands responsible for changes taking place in the body?',
+                    'Q2:  Define adolescence.',
+                    'Q3:  What is menstruation? Explain.',
+                    'Q4:  List changes in the body that take place at puberty.',
+                    'Q5:  Prepare a Table having two columns depicting names of endocrine glands and hormones secreted by them.',
+                    'Q6:  What are sex hormones? Why are they named so? State their function.',
                   ]
 
                   questions.each do |question|
