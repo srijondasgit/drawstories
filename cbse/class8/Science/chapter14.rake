@@ -25,13 +25,14 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  A tester is used to check the conduction of electricity through two liquids, labeled A and B. It is found that the bulb of the tester glows brightly for liquid A while it glows very dimly for liquid B. You would conclude that (i) liquid A is a better conductor than liquid B. (ii) liquid B is a better conductor than liquid A. (iii) both liquids are equally conducting. (iv) conducting properties of liquid cannot be compared in this manner.',
+                    'Q2:  Does pure water conduct electricity? If not, what can we do to make it conducting?',
+                    'Q3:  In case of a fire, before the firemen use the water hoses, they shut off the main electrical supply for the area. Explain why they do this.',
+                    'Q4:  A child staying in a coastal region tests the drinking water and also the seawater with his tester. He finds that the compass needle deflects more in the case of seawater. Can you explain the reason?',
+                    'Q5:  Is it safe for the electrician to carry out electrical repairs outdoors during heavy downpour? Explain.',
+                    'Q6:  Paheli had heard that rainwater is as good as distilled water. So she collected some rainwater in a clean glass tumbler and tested it using a tester. To her surprise she found that the compass needle showed deflection. What could be the reasons?',
+                    'Q7:  Prepare a list of objects around you that are electroplated.',
+                    'Q8:  The process that you saw in Activity 14.7 is used for purification of copper. A thin plate of pure copper and a thick rod of impure copper are used as electrodes. Copper from impure rod is sought to be transfered to the thin copper plate. Which electrode should be attached to the positive terminal of battery and why?',
                   ]
 
                   questions.each do |question|

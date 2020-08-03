@@ -27,13 +27,15 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  A pendulum oscillates 40 times in 4 seconds. Find its time period and frequency.',
+                    'Q2:  The sound from a mosquito is produced when it vibrates its wings at an average rate of 500 vibrations per second. What is the time period of the vibration?',
+                    'Q3:  Identify the part which vibrates to produce sound in the following instruments: (a) Dholak (b) Sitar (c) Flute',
+                    'Q4:  What is the difference between noise and music? Can music become noise sometimes?',
+                    'Q5:  List sources of noise pollution in your surroundings.',
+                    'Q6:  Explain in what way noise pollution is harmful to humans.',
+                    'Q7:  Your parents are going to buy a house. They have been offered one on the roadside and another three lanes away from the roadside. Which house would you suggest your parents should buy? Explain your answer.',
+                    'Q8:  Lightning and thunder take place in the sky at the same time and at the same distance from us. Lightning is seen earlier and thunder is heard later. Can you explain?',
+                    'Q9:  Did you know - Golconda fort, near Hyderabad, is one of the most magnificient forts in India. It is famous for many engineering and architectural marvels. One of the marvels is the water supply system. But, perhaps, more astonishing is a dome near the entrance to the fort. A hand-clap at a particular point under the dome reverberates and can be heard at the highest point of the fort, about a kilometre away. This was devised as a warning system. If a guard saw a suspicious movement outside the fort, he clapped at the particular point under the dome, and the army inside the fort was alerted to the danger of the approaching enemy.',
                   ]
 
                   questions.each do |question|

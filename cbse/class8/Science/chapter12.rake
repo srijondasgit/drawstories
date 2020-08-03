@@ -26,13 +26,13 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Suppose your writing desk is tilted a little. A book kept on it starts sliding down. Show the direction of frictional force acting on it.',
+                    'Q2:  You spill a bucket of soapy water on a marble floor accidently. Would it make it easier or more difficult for you to walk on the floor? Why?',
+                    'Q3:  Explain why sportsmen use shoes with spikes.',
+                    'Q4:  Iqbal has to push a lighter box and Seema has to push a similar heavier box on the same floor. Who will have to apply a larger force and why?',
+                    'Q5:  Explain why the sliding friction is less than the static friction.',
+                    'Q6:  Give examples to show that friction is both a friend and a foe.',
+                    'Q7:  Explain why objects moving in fluids must have special shapes.',
                   ]
 
                   questions.each do |question|

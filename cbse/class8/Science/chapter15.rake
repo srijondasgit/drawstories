@@ -26,13 +26,17 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Which of the following cannot be charged easily by friction? (a) A plastic scale (b) A copper rod (c) An inflated balloon (d) A woollen cloth.',
+                    'Q2:  When a glass rod is rubbed with a piece of silk cloth the rod (a) and the cloth both acquire positive charge. (b) becomes positively charged while the cloth has a negative charge. (c) and the cloth both acquire negative charge. (d) becomes negatively charged while the cloth has a positive charge.',
+                    'Q3:  Sometime, a crackling sound is heard while taking off sweater during winters. Explain.',
+                    'Q4:  Explain why a charged body loses its charge if we touch it with our hand.',
+                    'Q5:  Name the scale on which the destructive energy of an earthquake is measured. An earthquake measures 3 on this scale. Would it be recorded by a seismograph? Is it likely to cause much damage?',
+                    'Q6:  Suggest three measures to protect ourselves from lightning.',
+                    'Q7:  Explain why a charged balloon is repelled by another charged balloon whereas an uncharged balloon is attracted by another charged balloon?',
+                    'Q8:  Describe with the help of a diagram an instrument which can be used to detect a charged body.',
+                    'Q9:  List three states in India where earthquakes are more likely to strike.',
+                    'Q10:  Suppose you are outside your home and an earthquake strikes. What precaution would you take to protect yourself?',
+                    'Q11:  The weather department has predicted that a thunderstorm is likely to occur on a certain day. Suppose you have to go out on that day. Would you carry an umbrella? Explain.',
                   ]
 
                   questions.each do |question|
