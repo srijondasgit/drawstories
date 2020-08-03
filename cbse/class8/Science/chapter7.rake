@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Conservation of Plants and Animals", audio_link: 'chapter1.mp3')
         sections = ['We saw in Class VII that Paheli and Boojho had visited the forest along with Prof. Ahmad and Tibu. They were eager to share their experiences with their classmates. Other children in the class were also eager to share their experiences as some of them had visited Bharatpur Sanctuary. Some others had heard about Kaziranga National Park, Lockchao Wildlife Sanctuary, Great Nicobar Biosphere Reserve and Tiger Reserve, etc.',
                     '',
                     '7.1 Deforestation and Its CausesA great variety of plants and animals exists on earth. They are essential for the wellbeing and survival of mankind. Today, a major threat to survival of these organisms is deforestation. We know that deforestation means clearing of forests and using that land for other purposes. Trees in the forest are cut for some of the purposes mentioned below: Procuring land for cultivation.',

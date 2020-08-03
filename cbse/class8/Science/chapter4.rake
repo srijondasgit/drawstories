@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Materials: Metals and Non-Metals", audio_link: 'chapter1.mp3')
         sections = ['You are familiar with a number of materials like iron, aluminium, copper, etc. Some materials have been given in Table 4.1.',
                     '',
                     'Can you name the materials which are metals? The rest of the materials in Table 4.1 are non-metals. Metals can be distinguished from non-metals on the basis of their physical and chemical properties. Recall that lustre and hardness are physical properties.',

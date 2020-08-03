@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Sound", audio_link: 'chapter1.mp3')
         sections = ['How do you come to know that a \'period\' is over in your school? You come to know easily that someone is at your door when he knocks or you hear the sound of the doorbell. Most of the time you can make out that someone is approaching you by just hearing the foot steps.',
                     'You might have played a game called hide and seek. In this game a person is blind-folded and has to catch the remaining players. How is the blind- folded person able to guess which player is closest to her?',
                     'Sound plays an important role in our life. It helps us to communicate with one another. We hear a variety of sounds in our surroundings.',

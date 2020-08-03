@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Reaching the Age of Adolescence", audio_link: 'chapter1.mp3')
         sections = ['In this chapter, you will learn about changes that take place in the human body after which a person becomes capable of reproduction.',
                     'In Chapter 9, you have learnt about human reproductive organs. Here, we shall discuss the role that hormones play in bringing about changes that make a child grow into an adult.',
                     '10.1 Adolescence and PubertyBoojho was celebrating his 12th birthday. After his friends left, Boojho and Paheli began chatting with their parents. Paheli studies in an all-girls school. She started laughing. She remarked that many of Boojho\'s school friends, whom she met after a year, had suddenly shot up in height. Some of them were looking very funny with a hairy line above their lips. Her mother explained that the boys had grown up.',

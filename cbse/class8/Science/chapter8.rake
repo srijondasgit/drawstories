@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Cell – Structure and Functions", audio_link: 'chapter1.mp3')
         sections = ['You have already learnt that things around us are either living or non-living. Further, you may recall that all living organisms carry out certain basic functions. Can you list these functions?',
                     'Different sets of organs perform the various functions you have listed. In this chapter, you shall learn about the basic structural unit of an organ, which is the cell. Cells may be compared to bricks. Bricks are assembled to make a building. Similarly, cells are assembled to make the body of every organism.',
                     '8.1 Discovery of the CellRobert Hooke in 1665 observed slices of cork under a simple magnifying device. Cork is a part of the bark of a tree. He took thin slices of cork and observed them under a microscope. He noticed partitioned boxes or compartments in the cork slice (Fig. 8.1).',

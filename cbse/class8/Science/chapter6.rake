@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Combustion and Flame", audio_link: 'chapter1.mp3')
         sections = ['We use different kinds of fuel for various purposes at home, in industry and for running automobiles. Can you name a few fuels used in our homes? Name a few fuels used in trade and industry. What fuels are used for running automobiles? Your list will contain fuels like cowdung, wood, coal, charcoal, petrol, diesel, compressed natural gas (CNG), etc.',
                     'You are familiar with the burning of a candle. What is the difference between the burning of a candle and the burning of a fuel like coal? May be you were able to guess right: candle burns with a flame whereas coal does not. Similarly, you will find many other materials burning without a flame. Let us study the chemical process of burning and the types of flame produced during this process.',
                     '6.1 What is Combustion?',

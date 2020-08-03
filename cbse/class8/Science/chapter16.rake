@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Light", audio_link: 'chapter1.mp3')
         sections = ['The world is largely known through the senses. The sense of sight is one of the most important senses. Through it we see mountains, rivers, trees, plants, chairs, people and so many other things around us. We also see clouds, rainbows and birds flying in the sky. At night we see the moon and the stars. You are able to see the words and sentences printed on this page. How is seeing made possible?',
                     '16.1 What makes Things VisibleHave you ever thought how we see the various objects? You may say that eyes see the objects. But, can you see an object in the dark? It means that eyes alone cannot see any object. It is only when light from an object enters our eyes that we see the object. The light may have been emitted by the object, or may have been reflected by it.',
                     'You learnt in Class VII that a polished or a shiny surface can act as a mirror. A mirror changes the direction of light that falls on it. Can you tell in which direction the light falling on a surface will be reflected? Let us find out.',

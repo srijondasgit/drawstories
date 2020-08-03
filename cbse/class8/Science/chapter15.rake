@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Some Natural Phenomena", audio_link: 'chapter1.mp3')
         sections = ['In Class VII you read about winds, storms and cyclones. You learnt that cyclones can cause a lot of damage to human life and property. You also learnt that we can protect ourselves from these destructive phenomena to some extent. In this chapter we shall discuss two other destructive natural phenomena. These are lightning and earthquakes. We shall also discuss what steps we can take to minimise destruction causedby these phenomena.',
                     '',
                     '15.1 LightningYou might have seen sparks on a electric pole when wires become loose. This phenomenon is quite common when a wind is blowing and shacking the wires. You might also have seen sparks when a plug is loose in its socket. Lightning is also an electric spark, but on a huge scale.',

@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Coal and Petroleum", audio_link: 'chapter1.mp3')
         sections = ['We use various materials for our basic needs. Some of them are found in nature and some have been made by human efforts.',
                     '',
                     'Does this list include air, water, soil and minerals? Since all these are obtained from nature, they are called natural resources.',

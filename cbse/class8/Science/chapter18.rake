@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Pollution of Air and Water", audio_link: 'chapter1.mp3')
         sections = ['Paheli and Boojho were very excited to hear the news that Taj Mahal in Agra is now one of the seven wonders of the world. But they were disappointed to hear that the beauty of this monument in white marble is being threatened by air pollution in the area surrounding the Taj. They were eager to know if something can be done to fight the air and water pollution.',
                     'We are all aware that our environment is not what it used to be. Our elders talk about the blue sky, clean water and fresh air that was available in their times. Now the media regularly reports on the falling quality of the environment. We ourselves feel the impact of the falling quality of air and water in our lives. The number of people suffering from diseases of the respiratory system, for example, is steadily rising.',
                     'We dread to imagine a time when clean air and water may no longer be available! You have learnt about the importance of air and water in your previous classes. In this chapter, we will study about the harmful changes taking place in our surroundings and their effects on our lives.',

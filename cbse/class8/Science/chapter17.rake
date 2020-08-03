@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Stars and The Solar System", audio_link: 'chapter1.mp3')
         sections = ['Paheli and Boojho visited their grandparents\' village during summer break. After dinner, they went on to the roof of the house. It was a clear cloudless night. They were surprised to see a large number of bright stars in the sky. They had never seen such a beautiful scene in their city (Fig. 17.1)',
                     'Paheli wondered, why the village sky was so different from the night sky in big cities? Her grandfather explained that due to bright light, smoke and dust, sky in big cities is rarely clear. Night sky watching can be a fascinating experience at a place where there are no bright lights and the atmosphere is clear.',
                     'Look at the sky on a dark, clear night. You see the entire sky dotted with countless stars, some bright and some not so bright. Observe them carefully. Do all of them appear to twinkle? Do you find any star-like object which does not twinkle? The objects which do not twinkle are planets.',

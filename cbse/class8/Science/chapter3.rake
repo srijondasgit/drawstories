@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Synthetic Fibres and Plastics", audio_link: 'chapter1.mp3')
         sections = ['The clothes which we wear are made of fabrics. Fabrics are made from fibres obtained from natural or artificial sources. Can you name some natural fibres? Fibres are also used for making a large variety of household articles. Make a list of some common articles made from fibres. Try to separate them into those made from natural fibres and those made from artificial fibres. Make entries in Table 3.1.',
                     '',
                     'Why did you label some fibres as artificial?',

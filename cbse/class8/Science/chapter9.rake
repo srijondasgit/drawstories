@@ -10,7 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Reproduction in Animals", audio_link: 'chapter1.mp3')
         sections = ['Do you recall the processes of digestion, circulation and respiration which you have studied in your previous classes? These processes are essential for the survival of every individual. You have also learnt about the process of reproduction in plants. Reproduction is essential for the continuation of a species. Imagine what would have happened if organisms had not reproduced. You will realise that reproduction is very important as it ensures the continuation of similar kinds of individuals, generation after generation.',
                     'You have already learnt in your previous class about reproduction in plants. In this chapter, we shall learn how reproduction takes place in animals.',
                     '9.1 Modes of ReproductionHave you seen the young ones of different animals? Try to name some of the young ones by completing Table 9.1 as shown in examples at S. No. 1 and 5.',
