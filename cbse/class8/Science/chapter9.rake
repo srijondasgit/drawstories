@@ -11,7 +11,14 @@
     if book.save
 
         chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
-        sections = [
+        sections = ['Do you recall the processes of digestion, circulation and respiration which you have studied in your previous classes? These processes are essential for the survival of every individual. You have also learnt about the process of reproduction in plants. Reproduction is essential for the continuation of a species. Imagine what would have happened if organisms had not reproduced. You will realise that reproduction is very important as it ensures the continuation of similar kinds of individuals, generation after generation.',
+                    'You have already learnt in your previous class about reproduction in plants. In this chapter, we shall learn how reproduction takes place in animals.',
+                    '9.1 Modes of ReproductionHave you seen the young ones of different animals? Try to name some of the young ones by completing Table 9.1 as shown in examples at S. No. 1 and 5.',
+                    'You must have also seen the young ones of various animals being born. Can you tell how chicks and caterpillars are born? How are kittens and puppies born? Do you think that these young ones looked the same before they were born as they do now? Let us find out.',
+                    '',
+                    'Just as in plants, there are two modes by which animals reproduce. These are: (i) Sexual reproduction, and (ii) Asexual reproduction.',
+                    '9.2 Sexual ReproductionTry to recall reproduction in plants which you studied in Class VII. You will remember that plants that reproduce sexually have male and female reproductive parts. Can you name these parts? In animals also, males and females have different reproductive parts or organs. Like plants, the reproductive parts in animals also produce gametes that fuse to form a zygote. It is the zygote which develops into a new individual. This type of reproduction beginning from the fusion of male and female gametes is called sexual reproduction. Let us find out the reproductive partsin humans and study the process of reproduction in them.',
+                    
                     'Please refer your text book for the rest of the course',
                     ]
       
