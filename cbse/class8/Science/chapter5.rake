@@ -11,8 +11,8 @@
     if book.save
 
         chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
-        sections = [                    
-
+        sections = [
+                    'Please refer your text book for the rest of the course',
                     ]
       
                   sections.each do |content|
