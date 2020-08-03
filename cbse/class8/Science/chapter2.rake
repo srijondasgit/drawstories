@@ -28,13 +28,11 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  What are the major groups of microorganisms?',
+                    'Q2:  Name the microorganisms which can fix atmospheric nitrogen in the soil.',
+                    'Q3:  Write 10 lines on the usefulness of microorganisms in our lives.',
+                    'Q4:  Write a short paragraph on the harms caused by microorganisms.',
+                    'Q5:  What are antibiotics? What precautions must be taken while taking antibiotics?',
                   ]
 
                   questions.each do |question|

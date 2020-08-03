@@ -29,13 +29,16 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Explain why some fibres are called synthetic.',
+                    'Q2:  Give examples which indicate that nylon fibres are very strong.',
+                    'Q3:  Explain why plastic containers are favoured for storing food.',
+                    'Q4:  Explain the difference between the thermoplastic and thermosetting plastics.',
+                    'Q5:  Rana wants to buy shirts for summer. Should he buy cotton shirts or shirts made from synthetic material? Advise Rana, giving your reason.',
+                    'Q6:  Give examples to show that plastics are noncorrosive in nature.',
+                    'Q7:  Should the handle and bristles of a tooth brush be made of the same material? Explain your answer.',
+                    'Q8:  ‘Avoid plastics as far as possible’. Comment on this advice.',
+                    'Q9:  ‘Manufacturing synthetic fibres is actually helping conservation of forests’. Comment.',
+                    'Q10:  Describe an activity to show that thermoplastic is a poor conductor of electricity.',
                   ]
 
                   questions.each do |question|

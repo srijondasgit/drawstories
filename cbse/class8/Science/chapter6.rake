@@ -30,13 +30,16 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Explain how the use of CNG in automobiles has reduced pollution in our cities.',
+                    'Q2:  Compare LPG and wood as fuels.',
+                    'Q3:  Give reasons: (a) Water is not used to control fires involving electrical equipment. (b) LPG is a better domestic fuel than wood. (c) Paper by itself catches fire easily whereas a piece of paper wrapped around an aluminium pipe does not.',
+                    'Q4:  Name the unit in which the calorific value of a fuel is expressed.',
+                    'Q5:  Explain how CO2 is able to control fires.',
+                    'Q6:  It is difficult to burn a heap of green leaves but dry leaves catch fire easily. Explain.',
+                    'Q7:  Which zone of a flame does a goldsmith use for melting gold and silver and why?',
+                    'Q8:  In an experiment 4.5 kg of a fuel was completely burnt. The heat produced was measured to be 180,000 kJ. Calculate the calorific value of the fuel.',
+                    'Q9:  Can the process of rusting be called combustion? Discuss.',
+                    'Q10:  Abida and Ramesh were doing an experiment in which water was to be heated in a beaker. Abida kept the beaker near the wick in the yellow part of the candle flame. Ramesh kept the beaker in the outermost part of the flame. Whose water will get heated in a shorter time?',
                   ]
 
                   questions.each do |question|

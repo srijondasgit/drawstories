@@ -30,13 +30,12 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  Which of the following can be beaten into thin sheets? (a) Zinc (b) Phosphorus (c) Sulphur (d) Oxygen',
+                    'Q2:  Give reasons for the following : (a) Aluminium foils are used to wrap food items. (b) Immersion rods for heating liquids are made up of metallic substances. (c) Copper cannot displace zinc from its salt solution. (d) Sodium and potassium are stored in kerosene.',
+                    'Q3:  Can you store lemon pickle in an aluminium utensil? Explain.',
+                    'Q4:  What happens when (a) Dilute sulphuric acid is poured on a copper plate? (b) Iron nails are placed in copper sulphate solution? Write word equations of the reactions involved.',
+                    'Q5:  One day Reeta went to a jeweller’s shop with her mother. Her mother gave old gold jewellery to the goldsmith to polish. Next day when they brought the jewellery back, they found that there was a slight loss in its weight. Can you suggest a reason for the loss in weight?',
+                    'Q6:  Saloni took a piece of burning charcoal and collected the gas evolved in a test tube. (a) How will she find the nature of the gas ? (b) Write down word equations of all the reactions taking place in this process.',
                   ]
 
                   questions.each do |question|

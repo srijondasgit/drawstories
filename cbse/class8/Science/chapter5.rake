@@ -37,13 +37,13 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
+                    'Q1:  What are the advantages of using CNG and LPG as fuels?',
+                    'Q2:  Name the petroleum product used for surfacing of roads.',
+                    'Q3:  Describe how coal is formed from dead vegetation. What is this process called?',
+                    'Q4:  Explain why fossil fuels are exhaustible natural resources.',
+                    'Q5:  Describe characteristics and uses of coke.',
+                    'Q6:  Explain the process of formation of petroleum.',
+
                   ]
 
                   questions.each do |question|
