@@ -6,76 +6,50 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'GITA WOLF, ANUSHKA RAVISHANKAR, ORIJIT SEN', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'Unnamed', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Children at Work", audio_link: 'chapter1.mp3')
-        sections = ['WHEN the Kanyakumari Express pulled in at Chennai Central, it took Velu some time to get off. When he finally stood on the platform, his legs felt wobbly, as if he was still on a moving train.',
-                    '“Oy, out of the way!” A porter went by with a loaded trolley. Velu jumped aside.',
-                    'He sat on a bench on the platform, putting his small bundle down. In all his eleven years, he had never seen so many people, except once a year at the fair in his village. People walked by, bumping into him with their suitcases. A voice announced something on a loudspeaker. Near him a group of people sat ontheir luggage, looking at a TV hanging from the roof. The noise was terrible.',
-                    'Velu put his head down on his knees, feeling miserable and exhausted. He had run away from his village two days ago. For two days he had eaten nothing but some peanuts and a piece of jaggery. In his bundle he carried a shirt, a towel and a comb.',
-                    'He had walked for most of the first day to Kanur and then got on the train to Chennai. Velu had no money for a ticket but luckily the ticket collector didn\'t come to the unreserved compartment. He had tried to sleep on the floor near the door. A group of men next to him had played cards and shouted all night.',
-                    '“Aiy! What, new to town eh?” called out a rough voice.',
-                    'Velu opened his eyes. There were a lot of people standing around, but nobody was looking at him.',
-                    '“Here! Aiy!”He turned around. Behind him was a girl around his own age, wearing a long banian that came down to her knees. Her hair was stiff and brownish and she had a huge sack on one shoulder. She was picking up dirty plastic cups from the floor and stuffing theminto her sack. Why is she calling me, thought Velu. And why is a girl wearing a banian?',
-                    '“No need to stare stupidly. What\'s your name?”,
-                    “Velu,” muttered Velu, looking away.',
-                    '“So Mr Velu,” said the girl, looking at his bundle. “Run awayfrom home?”Velu didn\'t answer. He didn\'t want to tell some strange girl whathe had done. He had run away because he couldn\'t stand his father beating him for one more day. His father would snatch away all the money Velu and his sisters earned and spend it on drink.',
-                    '“Don\'t think I don\'t know. This place is full of children like you. So what are you going to do here? Become rich?”She sat down next to him. Velu shifted away slightly.',
-                    'He felt hunger pinching him and pressed his stomach with a grimace. “Hungry?” asked the girl. “You won\'t get food by sitting here glumly, making faces. I can find some if you want.”She picked up her sack and started to walk away. Velu stayed on the bench. What should he do? Should he follow this girl? Where was she going to take him? She was disappearing into the crowd, so he had to make up his mind quickly. Alright, he decided. Anyway I have no idea where to go. He jumped up and ran after her. She wasn\'t even looking back to see where he was.',
-                    'He caught up with the girl as she was leaving the station. When they got to the road, Velu found that the vehicles kept coming and never stopped for anyone. Smoke and dust flew at him from all sides, making his head spin. They had to wait for a long time before they could find a gap to run through. Velu kept hesitating and the girl finally dragged him to the other side.',
-                    '“What do you think you\'re doing? Grazing cows? If you stand around in the middle of the road like that, you\'ll be chutney.”Velu\'s heart was still beating fast. He looked back at Central Station and the traffic speeding by. How had they managed to come through that? They walked along the side of the road under somehuge signboards. Velu looked up at the pictures: banians, car tyres, pens, a woman holding a box. The writing was all in English, so he didn\'t know what it meant.',
-                    'The girl turned onto a wide bridge and walked up. Velu stopped and peeped over the railing. Under him, the road ran into the city. In the distance he could see huge buildings and towers and more roads.',
-                    '“See that big building with the wall around it? If you\'re not careful, you\'ll soon be counting bars there.” The girl grinned and pointed at a huge building.',
-                    'Velu squinted and read the Tamil sign, Central Jail.',
-                    '“Why? I haven\'t done anything wrong.”',
-                    '“You don\'t have to do anything. Just don\'t get caught,that\'s all.”What does she mean, Velu wondered. Meanwhile the girl wasalready heading down the bridge with the sack on her shoulder. What was in it? He had seen her putting plastic cups into it at the station.',
-                    '“What are you carrying in that bag?”',
-                    '“Things. Bottles, paper.”Velu wondered what she was doing with them, but he felt shy toask any more questions.',
-                    'It was still morning but the sun blasted down on the tar andVelu\'s bare feet burned. It was not like walking on a mud road. He was soaked with sweat. He tried hard to walk in the shade and keep up with the girl at the same time. She walked really fast. How far away was the food?',
-                    'After almost an hour of walking, they stopped in front of a big building. Sri Rajarajeshwari Prasanna Kalyana Mandapam read Velu slowly. A sign with letters made of flowers said, Groom: J. V. Vinayagan, Bride: Rani. Velu stared at the big cars parked outside. One of the cars had a flower garland and roses taped onto it. The girl looked around, pulled one off quickly and stuck it in her hair.',
-                    '“Come on,” she said.',
-                    '“Are we going to eat here?” asked Velu, looking at the huge hall and the people inside.',
-                    '“Hopes!” said the girl shaking her thumb under his nose. She led him behind the hall. There was a big garbage bin overflowing with rubbish. Two goats were standing on the pile, fighting for a banana leaf. A cloud of flies buzzed around their legs. There was a rotten smell in the air. The girl picked up a squashy banana and held it out to Velu.',
-                    '“Here\'s your food.”Velu was shocked. “Are we going to eat their leftovers?”',
-                    '“Chey! What do you think I am? A dog? I only take untouchedfood. Here, some more, catch!” She threw him a vada. Velu looked at it with distaste.',
-                    ' “Come on, hero, eat it! You think I like it? I told you I\'ll find you something to eat. Don\'t think I have money to buy food for you. You\'d better eat what you get until you have your own money.”Velu hesitated, but his stomach squeezed him again. He gulped down the banana and vada. His stomach felt better immediately. He could have eaten at least ten times more, but the girl could find only one more banana which she ate herself.',
-                    '“It\'s too early, they\'ve only eaten tiffin. If you\'re still hungry, you\'ll have to wait for them to finish lunch. You can wait if you want. I have to work, I\'m going.” She picked up a couple of bottles from the heap and threw it into her sack. Then she walked off.',
-                    'Velu panicked. He realised that if the girl left him, he had no idea where he was and what to do. It was better to stick to her, she seemed to know her way around. He ran after her again.',
-                    '“Aiy!” he called. He did not even know the girl\'s name. “Aiy, what is your name?” he asked hurrying behind her.',
-                    'She stopped and turned around. “Oho! So you\'ve been following me around without even knowing my name. Jaya.”',
-                    '“I\'m not following you.”',
-                    '“What then? Who got you food?”',
-                    '“Can I come with you? Where are you going?”',
-                    '“Come if you want. This bag is full, I have to go home to getanother one.”Jaya and Velu walked along the roads for half an hour, until they came to a bridge across a dirty trickle of water. “We are in Triplicane now. See, that\'s Buckingham Canal,” said Jaya.',
-                    'Velu stared. This was a canal? Near some puddles of water was a row of the strangest huts he had ever seen. They were built out of all sorts of things — metal sheets, tyres, bricks, wood and plastic. They stood crookedly and looked as if they would fall any moment.',
-                    '“Is this where you live? These houses are strange!” said Velu. “In our village, the houses are made of mud and palm leaves.”Jaya went around to one of the huts and dumped her sack outside. Then she picked up an empty one.',
-                    '“Let\'s go.”She turned to Velu and gave him a shove. “At least help menow. Here, wear these and come with me.”She threw him a pair of old shoes without laces and pushed a sackand a stick into his hands. Velu was confused. What work did she want him to do with these things? The only work he had ever done was on the landowner\'s farm, weeding and taking cows out to graze.',
-                    '“Are there any farms in the city?” he asked Jaya.',
-                    'She laughed and thumped her stick on the ground. “Farms! There are no farmers here. We are ragpickers.”',
-                    '“Ragpickers?”',
-                    '“See my sack? Full of things I collected.”',
-                    '“Collected? From where?” asked Velu.',
-                    '“From rubbish bins, where else?”',
-                    '“You collect rubbish?” Velu had never heard of such a thing “Ayye, blockhead. It\'s not any rubbish. Only paper, plastic, glass,such things. We sell it to Jam Bazaar Jaggu.”Velu was puzzled. He had heard of people throwing away rubbish.',
-                    'But why would anyone want to buy rubbish?',
-                    '“Who\'s Jam Bazaar Jaggu? Why\'s he buying all this?”',
-                    '“You think he buys it for show? He sells it to a factory. Come on,I don\'t have time to waste, like you.”Velu did not move. He hadn\'t run away and come to this newplace to dig through garbage bins. Jaya poked at him with her stick. “Look here!” she shouted. “If someone gets there before us we don\'t get anything. Don\'t just stand there, posing. Big hero. I\'mtrying to help you. Who filled your stomach today?”Velu scratched his head and sighed. I\'ll do it for now, he thought,  until I find a better job.',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Tsunami", audio_link: 'chapter1.mp3')
+        sections = ['These stories are all from the Andaman and Nicobar archipelago.',
+                    'Ignesious was the manager of a cooperative society in Katchall. His wife woke him up at 6 a.m. because she felt an earthquake. Ignesious carefully took his television set off its table and put it down on the ground so that it would not fall and break. Then the family rushed out of the house.',
+                    'When the tremors stopped, they saw the sea rising. In the chaos and confusion, two of his children caught hold of the hands of their mother\'s father and mother\'s brother, and rushed in the opposite direction. He never saw them again. His wife was also swept away. Only the three other children who came with him were saved.',
+                    'Sanjeev was a policeman, serving in the Katchall island of the Nicobar group of islands. He somehow managed to save himself, his wife and his baby daughter from the waves. But then he heard cries for help from the wife of John, the guesthouse cook. Sanjeev jumped into the water to rescue her, but they were both swept away.',
+                    'Thirteen year-old Meghna was swept away along with her parents and seventy-seven other people. She spent two days floating in the sea, holding on to a wooden door. Eleven times she saw relief helicopters overhead, but they did not see her. She was brought to the shore by a wave, and was found walking on the seashore in a daze.',
+                    'Almas Javed was ten years old. She was a student of Carmel Convent in Port Blair where her father had a petrol pump. Her mother Rahila\'s home was in Nancowry island. The family had gone there to celebrate Christmas.',
+                    'When the tremors came early in the morning, the family was sleeping. Almas\'s father saw the sea water recede. He understood that the water would come rushing back with great force. He woke everyone up and tried to rush them to a safer place.',
+                    'As they ran, her grandfather was hit on the head by something and he fell down. Her father rushed to help him. Then came the first giant wave that swept both of them away.',
+                    'Almas\'s mother and aunts stood clinging to the leaves of a coconut tree, calling out to her. A wave uprooted the tree, and they too were washed away.',
+                    'Almas saw a log of wood floating. She climbed on to it. Then she fainted. When she woke up, she was in ahospital in Kamorta. From there she was brought to Port Blair.',
+                    'The little girl does not want to talk about the incident with anyone. She is still traumatised.',
+                    'Tilly Smith (a British school girl) was able to save many lives when the tsunami struck Phuket beach in Thailand. Though she has won a number of awards, her parents have not allowed their daughter to be interviewed on television and made into a heroine. Why do you think they took that decision?',
+                    'Now here is a story from Thailand.',
+                    'The Smith family from South-East England were celebrating Christmas at a beach resort in southern Thailand. Tilly Smith was a ten-year-old schoolgirl; her sister was seven years old. Their parents were Penny and Colin Smith.',
+                    'It was 26 December 2004. Deadly tsunami waves were already on their way. They had been triggered by a massive earthquake off northern Sumatra earlier that morning.',
+                    '“The water was swelling and kept coming in,” Penny Smith remembered. “The beach was getting smaller and smaller. I didn\'t know what was happening.”',
+                    'But Tilly Smith sensed that something was wrong. Her mind kept going back to a geography lesson she had taken in England just two weeks before she flew out to Thailand with her family.',
+                    'Tilly saw the sea slowly rise, and start to foam, bubble and form whirlpools. She remembered that she had seen this in class in a video of a tsunami that had hit the Hawaiian islands in 1946. Her geography teacher had shown her class the video, and told them that tsunamis can be caused by earthquakes, volcanoes and landslides.',
+                    'Tilly started to scream at her family to get off the beach. “She talked about an earthquake under the sea. She got more and more hysterical,” said her mother Penny. “I didn\'t know what a tsunami was. But seeing my daughter so frightened, I thought something serious must be going on.”Tilly\'s parents took her and her sister away from the beach, to the swimming pool at the hotel. A number of other tourists also left the beach with them. “Then it was as if the entire sea had come out after them. I was screaming, \'Run!\'”The family took refuge in the third floor of the hotel. The building withstood the surge of three tsunami waves. If they had stayed on the beach, they would not have been alive.',
+                    'The Smiths later met other tourists who had lost entire families. Thanks to Tilly and her geography lesson, they had been forewarned. Tilly went back to her school in England and told her classmates her terrifying tale.',
+                    'Before the giant waves slammed into the coast in India and Sri Lanka, wild and domestic animals seemed to know what was about to happen. They fled to safety. According to eyewitness accounts, elephants screamed and ran for higher ground; dogs refused to go outdoors; flamingoes abandoned their low-lying breeding areas; and zoo animals rushed into their shelters and could not be enticed to come back out.',
+                    'Many people believe that animals possess a sixth sense and know when the earth is going to shake. Some experts believe that animals\' more acute hearing helps them to hear or feel the earth\'s vibration. They can sense an approaching disaster long before humans realise what\'s going on.',
+                    'We cannot be sure whether animals have a sixth sense or not. But the fact is that the giant waves that rolled through the Indian Ocean killed more than 150,000 people in a dozen countries; but not many animals have been reported dead.',
+                    'Along India\'s Cuddalore coast, where thousands of people perished, buffaloes, goats and dogs were found unharmed. The Yala National Park in Sri Lanka is home to a variety of animals including elephants, leopards, and 130 species of birds. Sixty visitors were washed away from the Patanangala beach inside the park; butno animal carcasses were found, except for two water buffaloes. About an hour before the tsunami hit, people at Yala National Park had observed three elephants running away from the Patanangala beach.',
+                    'A Sri Lankan gentleman who lives on the coast near Galle said his two dogs would not go for their daily run on the beach. “They are usually excited to go on this outing,” he said. But on that day they refused to go, and most probably saved his life.',             
                   ]
       
                   sections.each do |content|
                     Section.create( chappter_id: chappter.id, section_text: content)
                   end
 
-
                   questions = [
-                    'Q1: Velu stood on the platform but he felt “as if he was still on a moving train”. Why?',
-                    'Q2: What made him feel miserable?',
-                    'Q3: Can Velu read Tamil and English? How do you know?',
-                    'Q4: What material are the ‘strange’ huts made out of?',
-                    'Q5: Why does Velu find them strange?',
-                    'Q6: Is Velu happy or unhappy to find work? Give a reason for your answer.',
+                    "Q1:  When he felt the earthquake, do you think Ignesious immediately worried about a tsunami? Give reasons for your answer. Which sentence in the text tells you that the Ignesious family did not have any time to discuss and plan their course of action after the tsunami struck?",
+                    "Q2:  Which words in the list below describe Sanjeev, in your opinion? (Look up the dictionary for words that you are not sure of.) cheerful ambitious brash brave careless heroic selfless heartless humorous",
+                    "Q3:  How are Meghna and Almas’s stories similar?",
+                    "Q4:  What are the different ways in which Tilly’s parents could have reacted to her behaviour? What would you have done if you were in their place?",
+                    "Q5:  If Tilly’s award was to be shared, who do you think she should share it with — her parents or her geography teacher?",
+                    "Q6:  What are the two different ideas about why so few animals were killed in the tsunami? Which idea do you find more believable?",
+                    "Q7:  The story shows how a little girl saved the lives of many tourists when a tsunami struck the beach, thanks to the geography lesson that she had learnt at school. She remembered the visuals of a tsunami and warned her parents.",
                   ]
 
                   questions.each do |question|
