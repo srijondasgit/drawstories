@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Microorganisms: Friend and Foe", audio_link: 'chapter1.mp3')
-        sections = ['You have seen several kinds of plants and animals. However, there are other living organisms around us which we cannot see with eyes alone. These are called microorganisms or microbes. For example, you might have observed that during rainy season moist bread gets spoilt and its surface gets covered with greyish white patches. Observe these patches through a magnifying glass. You will see tiny, black rounded structures. Do you know what these structures are and where did these come from?',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Making of the National Movement: 1870s--1947", audio_link: 'chapter1.mp3')
+        sections = ['The above-mentioned developments led the people to ask a crucial question: what is this country of India and for whom is it meant? The answer that gradually emerged was: India was the people of India – all the people irrespective of class, colour, caste, creed, language, or gender. And the country, its resources and systems, were meant for all of them. With this answer came the awareness that the British were exercising control over the resources of India and the lives of its people, and until this control was ended India could not be for Indians.',
                     'Please refer your text book for the rest of the course',
                     ]
       
@@ -21,11 +21,17 @@
 
 
                   questions = [
-                    'Q1:  What are the major groups of microorganisms?',
-                    'Q2:  Name the microorganisms which can fix atmospheric nitrogen in the soil.',
-                    'Q3:  Write 10 lines on the usefulness of microorganisms in our lives.',
-                    'Q4:  Write a short paragraph on the harms caused by microorganisms.',
-                    'Q5:  What are antibiotics? What precautions must be taken while taking antibiotics?',
+                    'Q1:  Why were people dissatisfied with British rule in the 1870s and 1880s?',
+                    'Q2:  Who did the Indian National Congress wish to speak for?',
+                    'Q3:  What economic impact did the First World War have on India?',
+                    'Q4:  What did the Muslim League resolution of 1940 ask for?',
+                    'Q5:  Who were the Moderates? How did they propose to struggle against British rule?',
+                    'Q6:  How was the politics of the Radicals within the Congress different from that of the Moderates?',
+                    'Q7:  Discuss the various forms that the Non-Cooperation Movement took in different parts of India. How did the people understand Gandhiji?',
+                    'Q8:  Why did Gandhiji choose to break the salt law?',
+                    'Q9:  Discussthosedevelopmentsofthe1937-47period that led to the creation of Pakistan.',
+                    'Q10:  Find out how the national movement was organised in your city, district, area or state. Who participated in it and who led it? What did the movement in your area achieve?',
+                    'Q11:  Find out more about the life and work of any two participants or leaders of the national movement and write a short essay about them. You may choose a person not mentioned in this chapter.',
                   ]
 
                   questions.each do |question|
