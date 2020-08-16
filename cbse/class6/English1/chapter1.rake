@@ -27,8 +27,9 @@
                     "Q4:  In what subjects did the little man need help, to do Patrick’s homework?",
                     "Q5:  How did Patrick help him?",
                     "Q6:  Who do you think did Patrick’s homework — the little man, or Patrick himself?",
-                    "Q7:  This story has a lot of rhyming words, as a poem does. Can you write out some parts of it like a poem, so that the rhymes come at the end of separate lines? For example: patrick never did homework. “Too boring,” he said. He played baseball and hockey and Nintendo instead.'
-                    ]
+                    "Q7:  This story has a lot of rhyming words, as a poem does. Can you write out some parts of it like a poem, so that the rhymes come at the end of separate lines? For example: patrick never did homework. “Too boring,” he said. He played baseball and hockey and Nintendo instead."
+                 
+                  ]
 
                   questions.each do |question|
                     Question.create(chappter_id: chappter.id, question: question)
