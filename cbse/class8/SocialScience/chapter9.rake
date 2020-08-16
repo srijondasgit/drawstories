@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Microorganisms: Friend and Foe", audio_link: 'chapter1.mp3')
-        sections = ['You have seen several kinds of plants and animals. However, there are other living organisms around us which we cannot see with eyes alone. These are called microorganisms or microbes. For example, you might have observed that during rainy season moist bread gets spoilt and its surface gets covered with greyish white patches. Observe these patches through a magnifying glass. You will see tiny, black rounded structures. Do you know what these structures are and where did these come from?',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Women, Caste and Reform", audio_link: 'chapter1.mp3')
+        sections = ['Have you ever thought of how children lived about two hundred years ago? Nowadays most girls from middle-class families go to school, and often study with boys. On growing up, many of them go to colleges and universities, and take up jobs after that. They have to be adults before they are legally married, and according to law, they can marry anyone they like, from any caste and community, and widows can remarry too. All women, like all men, can vote and stand for elections. Of course, these rights are not actually enjoyed by all. Poor people have little or no access to education, and in many families, women cannot choose their husbands.',
                     'Please refer your text book for the rest of the course',
                     ]
       
@@ -21,11 +21,14 @@
 
 
                   questions = [
-                    'Q1:  What are the major groups of microorganisms?',
-                    'Q2:  Name the microorganisms which can fix atmospheric nitrogen in the soil.',
-                    'Q3:  Write 10 lines on the usefulness of microorganisms in our lives.',
-                    'Q4:  Write a short paragraph on the harms caused by microorganisms.',
-                    'Q5:  What are antibiotics? What precautions must be taken while taking antibiotics?',
+                    'Q1:  How did the knowledge of ancient texts help the reformers promote new laws?',
+                    'Q2:  What were the different reasons people had for not sending girls to school?',
+                    'Q3:  Why were Christian missionaries attacked by many people in the country? Would some people have supported them too? If so, for what reasons?',
+                    'Q4:  In the British period, what new opportunities opened up for people who came from castes that were regarded as “low”?',
+                    'Q5:  How did Jyotirao there formers justify their criticism of caste inequality in society? ',
+                    'Q6:  Why did Phule dedicate his book Gulamgiri to the American movement to free slaves?',
+                    'Q7:  What did Ambedkar want to achieve through the temple entry movement?'
+                    'Q8:  Why were Jyotirao Phule and Ramaswamy Naicker critical of the national movement? Did their criticism help the national struggle in any way?'                  
                   ]
 
                   questions.each do |question|

@@ -26,7 +26,7 @@
                     'Q3:  Why did Mahatma Gandhi want to teach children handicrafts?',
                     'Q4:  Why did Mahatma Gandhi think that English education had enslaved Indians?',
                     'Q5:  Find out from your grandparents about what they studied in school.',
-                    'Q6:  Findoutaboutthehistoryofyourschooloranyother school in the area you live.', 
+                    'Q6:  Find out about the history of your school or any other school in the area you live.', 
                   ]
 
                   questions.each do |question|
