@@ -22,7 +22,7 @@
 
                   questions = [
                     "Q1:  What did Patrick think his cat was playing with? What was it really?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
+                    "Q2:  W in the middle of the desert?",
                     "Q3: What made the dog, the horse and the ox very angry? ",
                     "Q4:  How did the Djinn know the horse was complaining against the camel?",
                     "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
