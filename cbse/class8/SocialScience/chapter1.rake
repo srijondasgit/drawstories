@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Indian Constitution", audio_link: 'chapter1.mp3')
-        sections = ['In this chapter, we are going to begin with football, a game many of you have probably heard of, or even played. As the name suggests, this is a game that involves the players’ feet. According to the rules of football, if the ball touches the arm of any player (except the goalkeeper), then this is considered a foul. So if players start holding the football in their hands and passing it around, then they are not playing football any more. Similarly other games, such as hockey or cricket, also have rules according to which they are played. Each of these rules helps define the game, and helps us distinguish one game from another. As these are fundamental to the game, we can also call them the constitutive rules of the game. Like these games, a society also has constitutive rules that make it what it is and differentiate it from other kinds of societies. In large societies in which different communities of people live together, these rules are formulated through consensus, and in modern countries this consensus is usually available in written form. A written document in which we find such rules is called a Constitution.',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "How, When and Where", audio_link: 'chapter1.mp3')
+        sections = ['There was a time when historians were fascinated with dates. There were heated debates about the dates on which rulers were crowned or battles were fought. In the common-sense notion, history was synonymous with dates. You may have heard people say, “I find history boring because it is all about memorising dates.” Is such a conception true? History is certainly about changes that occur over time. It is about finding out how things were in the past and how things have changed. As soon as we compare the past with the present we refer to time, we talk of “before” and “after”.',
                     'Please refer your text book for the rest of the course',
                    ]
       
@@ -21,9 +21,10 @@
 
 
                   questions = [
-                    'Q1:  Why does a democratic country need a Constitution?',
-                    'Q2:  What would happen if there were no restrictions on the power of elected representatives?',
-                    'Q3:  Why do you think this feature is important - Federalism, Separation of Powers, Fundamental Rights, Parliamentary Form of Government',
+                    'Q1:  What is the problem with the periodisation of Indian history that James Mill offers?',
+                    'Q2:  Why did the British preserve official documents?',
+                    'Q3:  How will the information historians get from old newspapers be different from that found in police reports?',
+                    'Q4:  Can you think of examples of surveys in your world today? Think about how toy companies get information about what young people enjoy playing with or how the government finds out about the number of young people in school. What can a historian derive from such surveys?',
                   ]
 
                   questions.each do |question|

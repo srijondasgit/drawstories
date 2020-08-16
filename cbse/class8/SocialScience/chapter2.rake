@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Microorganisms: Friend and Foe", audio_link: 'chapter1.mp3')
-        sections = ['You have seen several kinds of plants and animals. However, there are other living organisms around us which we cannot see with eyes alone. These are called microorganisms or microbes. For example, you might have observed that during rainy season moist bread gets spoilt and its surface gets covered with greyish white patches. Observe these patches through a magnifying glass. You will see tiny, black rounded structures. Do you know what these structures are and where did these come from?',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "From Trade to Territory", audio_link: 'chapter1.mp3')
+        sections = ['Aurangzeb was the last of the powerful Mughal rulers. He established control over a very large part of the territory that is now known as India. After his death in 1707, many Mughal governors (subadars) and big zamindars began asserting their authority and establishing regional kingdoms. As powerful regional kingdoms emerged in various parts of India, Delhi could no longer function as an effective centre.',
                     'Please refer your text book for the rest of the course',
                     ]
       
@@ -21,11 +21,14 @@
 
 
                   questions = [
-                    'Q1:  What are the major groups of microorganisms?',
-                    'Q2:  Name the microorganisms which can fix atmospheric nitrogen in the soil.',
-                    'Q3:  Write 10 lines on the usefulness of microorganisms in our lives.',
-                    'Q4:  Write a short paragraph on the harms caused by microorganisms.',
-                    'Q5:  What are antibiotics? What precautions must be taken while taking antibiotics?',
+                    'Q1:  What attracted European trading companies to India?',
+                    'Q2:  What were the areas of conflict between the Bengal nawabs and the East India Company?',
+                    'Q3:  How did the assumption of Diwani benefit the East India Company?',
+                    'Q4:  Explain the system of “subsidiary alliance”.',
+                    'Q5:  In what way was the administration of the Company different from that of Indian rulers?',
+                    'Q6:  Describe the changes that occurred in the composition of the Company’s army.',
+                    'Q7:  After the British conquest of Bengal, Calcutta grew from a small village to a big city. Find out about the culture, architecture and the life of Europeans and Indians of the city during the colonial period.',
+                    'Q8:  Collect pictures, stories, poems and information about any of the following – the Rani of Jhansi, Mahadji Sindhia, Haidar Ali, Maharaja Ranjit Singh, Lord Dalhousie or any other contemporary ruler of your region.',
                   ]
 
                   questions.each do |question|
