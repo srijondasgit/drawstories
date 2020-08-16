@@ -19,17 +19,15 @@
                     Section.create( chappter_id: chappter.id, section_text: content)
                   end
 
-
+                  
                   questions = [
                     "Q1:  What did Patrick think his cat was playing with? What was it really?",
-                    "Q2:  W in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
-                  ]
+                    "Q2:  Why did the little man grant Patrick a wish?",
+                    "Q3:  What was Patrick’s wish? ",
+                    "Q4:  In what subjects did the little man need help, to do Patrick’s homework?",
+                    "Q5:  How did Patrick help him?",
+                    "Q6:  Who do you think did Patrick’s homework — the little man, or Patrick himself?",
+                    ]
 
                   questions.each do |question|
                     Question.create(chappter_id: chappter.id, question: question)
