@@ -6,17 +6,18 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'LORRAINE M. HALLI', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'WALTER DE LA MARE', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "A House, A Home", 
-                      audio_link: 'chapter1.mp3')
-       
-                       sections = [ 'What is a house?', 
-                     'It’s brick and stone',
-                     'and wood that’s hard.',
-                     'Some window glass',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "All but Blind*", 
+                  
+                    audio_link: 'chapter1.mp3')
+
+        sections = [ 'All but blind', 
+                     'In his chambered hole',
+                     'Gropes for worms',
+                     'The four-clawed Mole.',
                      
                      'Please refer your text book for the rest of the course',
                   ]
@@ -27,9 +28,8 @@
 
 
                   questions = [
-                    "Q1: Do you agree with what the poet says? Talk to your partner and complete these sentences.(i) A house is made of.......... (ii) It has............. (iii) A home is made by ........ (iv) It has ..... ", 
-
-                     
+                    "Q1: Look at your hands carefully. Now, write down for each finger one action for which that finger is particularly important. For example, the second (or index) finger helps to hold the knife down firmly when cutting.", 
+                  
                     
                   ]
 
