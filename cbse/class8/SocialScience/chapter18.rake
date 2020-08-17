@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Microorganisms: Friend and Foe", audio_link: 'chapter1.mp3')
-        sections = ['You have seen several kinds of plants and animals. However, there are other living organisms around us which we cannot see with eyes alone. These are called microorganisms or microbes. For example, you might have observed that during rainy season moist bread gets spoilt and its surface gets covered with greyish white patches. Observe these patches through a magnifying glass. You will see tiny, black rounded structures. Do you know what these structures are and where did these come from?',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Understanding Our Criminal Justice System", audio_link: 'chapter1.mp3')
+        sections = ['When we see someone violating the law, we immediately think of informing the police. You might have seen, either in real life or in the movies, police officers filing reports and arresting persons. Because of the role played by the police in arresting persons, we often get confused and think that it is the police who decide whether a person is guilty or not. This, however, is far from true. After a person is arrested, it is a court of law that decides whether the accused person is guilty or not. According to the Constitution, every individual charged of a crime has to be given a fair trial.',
                     'Please refer your text book for the rest of the course',
                     ]
       
@@ -21,17 +21,7 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
-                    'Q8:  ',
-                    'Q9:  ',
-                    'Q10:  ',
-                    'Q11:  ',
+                    'Q1:  State two reasons why you believe that different persons need to play different roles as part of the criminal justice system.',
                   ]
 
                   questions.each do |question|

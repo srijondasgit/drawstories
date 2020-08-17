@@ -10,8 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Microorganisms: Friend and Foe", audio_link: 'chapter1.mp3')
-        sections = ['have seen several kinds of plants and animals. However, there are other living organisms around us which we cannot see with eyes alone. These are called microorganisms or microbes. For example, you might have observed that during rainy season moist bread gets spoilt and its surface gets covered with greyish white patches. Observe these patches through a magnifying glass. You will see tiny, black rounded structures. Do you know what these structures are and where did these come from?',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Why Do We Need a Parliament?", audio_link: 'chapter1.mp3')
+        sections = ['We in India pride ourselves on being a democracy. Here we will try and understand the relation between the ideas of participation in decision-making and the need for all democratic governments to have the consent of their citizens. It is these elements that together make us a democracy and this is best expressed in the institution of the Parliament. In this chapter, we will try to see how the Parliament enables citizens of India to participate in decision making and control the government, thus making it the most important symbol of Indian democracy and a key feature of the Constitution.',
                     'Please refer your text book for the rest of the course',
                     ]
       
@@ -21,17 +21,7 @@
 
 
                   questions = [
-                    'Q1:  ',
-                    'Q2:  ',
-                    'Q3:  ',
-                    'Q4:  ',
-                    'Q5:  ',
-                    'Q6:  ',
-                    'Q7:  ',
-                    'Q8:  ',
-                    'Q9:  ',
-                    'Q10:  ',
-                    'Q11:  ',
+                    'Q1:  Why do you think our national movement supported the idea that all adults have a right to vote?',
                   ]
 
                   questions.each do |question|
