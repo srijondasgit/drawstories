@@ -10,10 +10,8 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "How the Dog Found Himself a Master!",
-         audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "How the Dog Found Himself a Master!",audio_link: 'chapter1.mp3')
         sections = ['DOGS were once their own masters and lived the way wolves do, in freedom, until a dog was born who was ill pleased with this way of life. He was sick and tired of wandering about by himself', 
-
                     'Please refer your text book for the rest of the course',
                   ]
       
