@@ -12,8 +12,9 @@
 
         chappter  =  Chappter.create(book_id: book.try(:id), name: "A Tale of Two Birds",
                     audio_link: 'chapter1.mp3')
-        sections = ["THERE once lived a bird and her two new-born babies in a forest. They had a nest in a tall, shady tree and there the mother bird took care of her little ones day and night.",
-                  ]
+        sections = [   "THERE once lived a bird and her two new-born babies in a forest. They had a nest in a tall, shady tree and there the mother bird took care of her little ones day and night.",
+                    'Please refer your text book for the rest of the course',
+                    ] 
       
                   sections.each do |content|
                     Section.create( chappter_id: chappter.id, section_text: content)
