@@ -9,9 +9,9 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "FOOD: WHERE DOES IT COME FROM?", audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "COMPONENTS OF FOOD", audio_link: 'chapter1.mp3')
 
-        sections = ['What did you eat at home today? Find out what your friend ate today. Did you eat the same kind of food yesterday and today? We all eat different kinds of food at different times, isn’t it?', 
+        sections = ['In Chapter 1, we made lists of the food items that we eat. We also identified food items eaten in different parts of India and marked these on its map. A meal could consist of chapati, dal and brinjal curry. Another may be rice, sambar and a vegetable preparation of lady’s finger (bhindi). Yet another meal could be appam, fish curry and vegetables.', 
                     'Please refer your text book for the rest of the course',
                   ]
       
@@ -22,10 +22,8 @@
 
                   questions = [
 
-                    "Q1: Do you find that all living beings need the same kind of food?",
-                    "Q2: Name five plants and their parts that we eat.",
-                    
-                                         
+                    "Q1: Name the major nutrients in our food.",
+                                                          
                     ]
 
                   questions.each do |question|
