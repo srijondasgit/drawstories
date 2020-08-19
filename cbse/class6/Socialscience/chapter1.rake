@@ -1,17 +1,17 @@
-
-  desc "TODO"
+ desc "TODO"
   task chappter_one: :environment do
     # Chappter.delete_all
     # Book.delete_all
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'Rudyard Kipling', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'author', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "HOW THE CAMEL GOT HIS HUMP", audio_link: 'chapter1.mp3')
-        sections = ['', 
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "WHAT, WHERE, HOW AND WHEN?", audio_link: 'chapter1.mp3')
+
+        sections = ['Finding out what happened Yesterday: you could listen to the radio, watch television, read a newspaper.Last year: ask somebody who remembers.But what about long, long ago? Let us see how it can be done.', 
                     'Please refer your text book for the rest of the course',
                   ]
       
@@ -21,15 +21,13 @@
 
 
                   questions = [
-                    "Q1:  What tasks, do you think, were assigned to the dog and the ox?",
-                    "Q2:  Why did the camel live in the middle of the desert?",
-                    "Q3: What made the dog, the horse and the ox very angry? ",
-                    "Q4:  How did the Djinn know the horse was complaining against the camel?",
-                    "Q5:  The camel was looking at his own reflection in the pool. What does it suggest to you about the camel?",
-                    "Q6:  The camel said, 'Humph' repeatedly. How did it affect him?",
-                    "Q7: What, according to the Djinn, was the use of the 'humph'?",
-                    'Q8:  "...he has never yet learnt to behave". In the light of this, what is the writer opinion about the camel?'
-                  ]
+                    "Q1: List one major difference between manuscripts and inscriptions.",
+                    "Q2: Return to Rasheeda’s question. Can you think of some answers to it?",
+                    "Q3: Make a list of all the objects that archaeologists may find. Which of these could be made of stone?",
+                    "Q4: Why do you think ordinary men and women did not generally keep records of what they did?",
+                    "Q5: Describe at least two ways in which you think the lives of kings would have been different from those of farmers.",                    "Q6: ",
+                           
+                    ]
 
                   questions.each do |question|
                     Question.create(chappter_id: chappter.id, question: question)
