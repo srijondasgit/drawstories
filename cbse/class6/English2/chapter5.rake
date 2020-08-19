@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Tansen",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Tansen", audio_link: 'chapter1.mp3')
         sections = [   "YOU may have heard the name of Tansen — the greatest musician our country has produced. A singer called Mukandan Misra and his wife lived in Behat near Gwalior. Tansen was their only child. It is said that he was a naughty child. Often, he ran away to play in the forest, and soon learnt to imitate perfectly the calls of birds and animals.",
                     'Please refer your text book for the rest of the course',
                     ] 

@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "A Strange Wrestling Match",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "A Strange Wrestling Match", audio_link: 'chapter1.mp3')
         sections = [   "THERE was once a wrestler called Vijay Singh. A tall man with massive shoulders and muscular arms, he towered over others like a giant. Vijay Singh, people said, was a born wrestler and could beat all other wrestlers in the world.",
                     'Please refer your text book for the rest of the course',
                     ] 

@@ -6,13 +6,11 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: ' a story from The Panchatantra ', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'A story from The Panchatantra', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Friendly Mongoose",
-                   
-                  audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Friendly Mongoose", audio_link: 'chapter1.mp3')
 
         sections = ["ONCE a farmer and his wife lived in a village with their small farmer said to his wife one day. “When our son grows up, he will need a companion. This pet will be our son’s companion.” His wife liked the idea.",
                  'Please refer your text book for the rest of the course',

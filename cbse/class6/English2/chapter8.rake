@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Pact with the Sun",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Pact with the Sun", audio_link: 'chapter1.mp3')
         sections = [   "SAEEDA’S mother had been ailing for a long time — fever, cough,body-ache, painful joints and what not. Treated by a variety of physicians for weeks, she often showed signs of improvement but soon relapsed into her old, sick self, one complaint substituted by another. Though weak and colourless, she was forbidden normal food and was under strict orders to remain perpetually confined to her small, dingy room with doors and windows fastened, deprived of sunshine and fresh air.",
                     'Please refer your text book for the rest of the course',
                     ] 

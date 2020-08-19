@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "What Happened to the Reptiles",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "What Happened to the Reptiles", audio_link: 'chapter1.mp3')
         sections = [   "YOU may not believe this story. But I can tell you it is true,because I have been to Pambupatti, a village on the edge of the jungle. It is on a cliff, and the vast forest stretches below like a mossy green carpet. There are many kinds of people in the village — dark, fair, tall, short. They speak many languages. Some eat meat, some don’t. Some pray in a small temple at the edge of the forest. Others pray in a mosque some miles away.",
                     'Please refer your text book for the rest of the course',
                     ] 

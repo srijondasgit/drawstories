@@ -12,7 +12,7 @@
 
         chappter  =  Chappter.create(book_id: book.try(:id), name: "The Monkey and the Crocodile",
                     audio_link: 'chapter1.mp3')
-        sections = [   "ONCE, on the bank of a river, a monkey made a home for himself in a tree laden with fruit. He lived in it happily eating to his heart’s content the fruit of his choice. The monkey was happy but lonely and wanted a companion to talk to and share the fruits with. But there was no one around, not even another monkey, till one day a crocodile appeared on the riverside.",
+        sections = ['ONCE, on the bank of a river, a monkey made a home for himself in a tree laden with fruit. He lived in it happily eating to his heart’s content the fruit of his choice. The monkey was happy but lonely and wanted a companion to talk to and share the fruits with. But there was no one around, not even another monkey, till one day a crocodile appeared on the riverside.',
                     'Please refer your text book for the rest of the course',
                     ] 
       

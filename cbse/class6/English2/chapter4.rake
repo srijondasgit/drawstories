@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "The old-clock-shop",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The old-clock-shop", audio_link: 'chapter1.mp3')
         sections = [   "CHRISTMAS Eve had arrived. As last-minute shoppers were going home, a thick, white sheet of snow lay over Salt Lake City, USA. Yet the lights were still burning in the old-clock shop, as Ray, its old, deaf owner, worked on a clock he had sold that day.",
                     'Please refer your text book for the rest of the course',
                     ] 

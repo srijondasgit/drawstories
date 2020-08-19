@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Shepherd’s Treasure",
-                    audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "The Shepherd’s Treasure", audio_link: 'chapter1.mp3')
         sections = ["IN a village in Iran there once lived a shepherd. He was very poor. He did not have even a small cottage of his own. He had never been to school or learnt to read and write, for there were very few schools in those days.",
                     'Please refer your text book for the rest of the course',
                     ]
