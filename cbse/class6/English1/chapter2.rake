@@ -12,7 +12,7 @@
 
         chappter  =  Chappter.create(book_id: book.try(:id), name: "A House, A Home",audio_link: 'chapter1.mp3')
        
-                       sections = [ 'What is a house?', 
+        sections = [ 'What is a house?', 
                      'It’s brick and stone',
                      'and wood that’s hard.',
                      'Some window glass',

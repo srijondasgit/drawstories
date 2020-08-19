@@ -6,19 +6,13 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'PETER DIXON', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: ' Unnamed ', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Where Do All the Teachers Go?", 
-                     audio_link: 'chapter1.mp3')
-
-        sections = [   'Where do all the teachers go', 
-                       'When it’s four o’clock?',
-                       'Do they live in houses',
-                       'And do they wash their socks?',
-
-                       'Please refer your text book for the rest of the course',
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Who I Am. Part I - MANY VOICES", audio_link: 'chapter1.mp3')
+        sections = ['RADHA  My favourite activity is climbing trees. Just outside our house, there is a guava tree which I love to go up. Its branches spread out, so it is simple to climb up the tree, and I can sit comfortably in the fork of two branches.', 
+                    'Please refer your text book for the rest of the course',
                   ]
       
                   sections.each do |content|
@@ -27,13 +21,11 @@
 
 
                   questions = [
-                    "Q1:  Why does the poet want to know where the teachers go at four o’clock?",
-                    "Q2:  What are the things normal people do that the poet talks about?",
-                    "Q3:  What does he imagine about (a) where teachers live? (b) what they do at home? (c) the people with whom they live? (d) their activities when they were children in school?",
-                    "Q4:  Why does the poet wonder if teachers also do things that other people do?",
-                    "Q5:  How does the poet plan to find out? What will he do once he finds out?",
-                    "Q6:  What do you think these phrases from the poem mean? (i) punished in the corner (ii) leave their greens",
-                                     ]
+                    "Q1:   Peter’s favourite day of the week is Sunday because......",
+                    "Q2:  Nasir wants to learn ........",
+                    "Q3:  Dolma believes that she can make a good Prime Minister because..... ",
+                    
+                  ]
 
                   questions.each do |question|
                     Question.create(chappter_id: chappter.id, question: question)

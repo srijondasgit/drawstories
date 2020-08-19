@@ -6,14 +6,17 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: 'PREMCHAND', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'RABINDRANATH TAGORE', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Fair Play", 
-        audio_link: 'chapter1.mp3')
-        sections = ['JUMMAN Shaikh and Algu Chowdhry were good friends. So strong was their bond of friendship that when either of them went away from the village, the other looked after his family. Both were greatly respected in the village.', 
-                    
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Vocation", audio_link: 'chapter1.mp3')
+       
+        sections = [ 'When the gong sounds ten in the morning and I walk to school by our lane,', 
+                    'Every day I meet the hawker crying, “Bangles, crystal bangles!”',
+                    'There is nothing to hurry him on, there is no road he must take, no place he must go to, no time when he must come home.',
+                    'wish I were a hawker, spending my day in the road, crying, “Bangles, crystal bangles!”',
+                     
                      'Please refer your text book for the rest of the course',
                   ]
       
@@ -23,15 +26,9 @@
 
 
                   questions = [
-                    "Q1:  “Then the situation changed.” What is being referred to?",
-                    "Q2:  When Jumman’s aunt realised that she was not welcome in his house, what arrangement did she suggest?",
-                    "Q3:  What was the villagers’ reaction when the aunt explained her case to them? ",
-                    "Q4:  Why was Jumman happy over Algu’s nomination as head Panch?",
-                    "Q5:  “God lives in the heart of the Panch.” the aunt said. What did she mean?",
-                    "Q6:  What was Algu’s verdict as head Panch? How did Jumman take it?",
-                    "Q7:  Why was Algu upset over Jumman’s nomination as head Panch?",
-                 
-                       ]
+                    "Q1: Who is the speaker in the poem? Who are the people the speaker meets? What are they doing? ",
+                    "Q2: What wishes does the child in the poem make? Why does the child want to be a hawker, a gardener, or a watchman? Pick out the lines in each stanza, which tell us this. ",
+                    ]
 
                   questions.each do |question|
                     Question.create(chappter_id: chappter.id, question: question)

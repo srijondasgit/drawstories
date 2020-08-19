@@ -10,8 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "A Different Kind of School",
-         audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "A Different Kind of School", audio_link: 'chapter1.mp3')
         sections = ['I HAD heard a great deal about Miss Beam’s school, but not till last week did the chance come to visit it', 
                     
                      'Please refer your text book for the rest of the course',

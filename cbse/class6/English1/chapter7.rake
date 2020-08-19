@@ -6,12 +6,11 @@
     # Section.delete_all
     # Question.delete_all
     
-    book = Book.new(school_id: 1, name: 'Book', author: '[adapted from Span January/February 1998]', book_type: 'General')
+    book = Book.new(school_id: 1, name: 'Book', author: 'adapted from Span January February 1998', book_type: 'General')
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "An Indian – American Woman in Space: Kalpana Chawla Woman in Space:",
-                      audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "An Indian – American Woman in Space: Kalpana Chawla Woman in Space:", audio_link: 'chapter1.mp3')
 
         sections = ['KALPANA Chawla said that she never dreamed, as a child in Karnal, that she would cross the frontiers of space. It was enough that her parents allowed her to attend engineering college after she graduated from Tagore School.', 
                     

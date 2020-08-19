@@ -10,9 +10,7 @@
 
     if book.save
 
-        chappter  =  Chappter.create(book_id: book.try(:id), name: "Beauty", 
-                     
-                     audio_link: 'chapter1.mp3')
+        chappter  =  Chappter.create(book_id: book.try(:id), name: "Beauty", audio_link: 'chapter1.mp3')
 
         sections = [ 'Beauty is seen', 
                      'In the sunlight,',
